@@ -7,6 +7,9 @@ import "./Header.scss"
 // Types
 import { HeaderProps } from "./types"
 
+// Routes
+import { routes } from "config/routes"
+
 const Header = (Props: HeaderProps): JSX.Element => {
   const { title } = Props
 
@@ -15,12 +18,13 @@ const Header = (Props: HeaderProps): JSX.Element => {
       <p>{title}</p>
 
       <nav className="Header__nav">
-        <Link to="/" className="Header__link">
-          Home
-        </Link>
-        <Link to="/deputados" className="Header__link">
-          Deputados
-        </Link>
+        {routes.map((route) => {
+          return (
+            <Link to={route.url} className="Header__link" key={route.key}>
+              {route.title}
+            </Link>
+          )
+        })}
       </nav>
     </header>
   )
