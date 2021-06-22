@@ -1,9 +1,6 @@
 import React, { PureComponent } from "react"
 import { BrowserRouter as Router } from "react-router-dom"
 
-// Global styles
-import "assets/styles/global.scss"
-
 // Components
 import { Footer, Header } from "views/components/shared"
 

@@ -15,17 +15,19 @@ const Header = (Props: HeaderProps): JSX.Element => {
 
   return (
     <header className="Header">
-      <p>{title}</p>
+      <div className="container Header__container">
+        <p className="Header__logo">{title}</p>
 
-      <nav className="Header__nav">
-        {routes.map((route) => {
-          return (
-            <Link to={route.url} className="Header__link" key={route.key}>
-              {route.title}
-            </Link>
-          )
-        })}
-      </nav>
+        <nav className="Header__nav">
+          {routes.map((route) => {
+            return (
+              <Link to={route.url} className="Header__link" key={route.key}>
+                {route.title}
+              </Link>
+            )
+          })}
+        </nav>
+      </div>
     </header>
   )
 }
