@@ -18,11 +18,12 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
+    "semi": ["error", "never"],
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
     "@typescript-eslint/semi": ["error", "never"],
-    "semi": ["error", "never"]
+    "@typescript-eslint/no-explicit-any": "off"
   },
   "settings": {
     "import/resolver": {
