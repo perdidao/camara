@@ -1,3 +1,7 @@
 .Deputados {
-  background-color: lightgray;
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    column-gap: 2%;
+  }
 }
