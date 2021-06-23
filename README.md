@@ -12,7 +12,7 @@ Na sequência, sirva o projeto na porta `3030` com o comando `yarn start`.
 ## Manutenção de código
 
 Para facilitar o versionamento, esse projeto segue o Gitflow a seguir:
-![BitBucket Gitflow](https://wac-cdn.atlassian.com/dam/jcr:8f00f1a4-ef2d-498a-a2c6-8020bb97902f/03%20Release%20branches.svg?cdnVersion=1671 "Bitbucket gitflow")
+<img src="https://wac-cdn.atlassian.com/dam/jcr:8f00f1a4-ef2d-498a-a2c6-8020bb97902f/03%20Release%20branches.svg?cdnVersion=1671" alt="Bitbucket gitflow" width="540"/>
 
 Atualmente, os commits na branch `main` fazem deploy da aplicação para o [ambiente de produção](https://deputados.vercel.app) e os commits na branch `develop` fazem deploy para o [ambiente de testes/homologação](https://deputados-dev.vercel.app).
 
