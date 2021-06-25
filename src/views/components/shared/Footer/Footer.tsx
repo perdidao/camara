@@ -5,7 +5,7 @@ const Footer = (): JSX.Element => {
   const year = date.getUTCFullYear()
 
   return (
-    <footer className="Footer">
+    <footer className="footer">
       <p>Câmara dos deputados - {year}</p>
     </footer>
   )

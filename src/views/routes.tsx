@@ -1,16 +1,21 @@
 import React from "react"
 import { Switch, Route } from "react-router-dom"
-import { Deputados } from "./pages/Deputados"
-import { Home } from "./pages/Home"
+
+// Layout
+import { DefaultLayout } from "views/layouts/Default"
+
+// Pages
+import { Home } from "views/pages/Home"
+import { Deputados } from "views/pages/Deputados"
 
 const Routes = (): JSX.Element => {
   return (
     <Switch>
       <Route exact path="/">
-        <Home />
+        <DefaultLayout childComponent={Home()} />
       </Route>
       <Route path="/deputados">
-        <Deputados />
+        <DefaultLayout childComponent={Deputados()} />
       </Route>
     </Switch>
   )

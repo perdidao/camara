@@ -1,0 +1,31 @@
+.deputy_card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+
+  &__avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid $silver;
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  &__name {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: $fw-bold;
+  }
+
+  &__from {
+    color: $primary;
+    font-size: 12px;
+  }
+}
