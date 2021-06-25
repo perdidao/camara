@@ -10,7 +10,7 @@
     margin-right: 10px;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid var(--pds-silver);
+    border: 5px solid $silver;
 
     img {
       display: block;
@@ -21,11 +21,11 @@
   &__name {
     margin-bottom: 10px;
     font-size: 16px;
-    font-weight: var(--pds-fw-bold);
+    font-weight: $fw-bold;
   }
 
   &__from {
-    color: var(--pds-primary);
+    color: $primary;
     font-size: 12px;
   }
 }

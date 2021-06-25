@@ -3,9 +3,6 @@ import React from "react"
 // Models
 import { Deputy } from "models/deputy.interface"
 
-// Styles
-import "./DeputyCard.scss"
-
 const DeputyCard = (props: Deputy): JSX.Element => {
   return (
     <div className="deputy_card">

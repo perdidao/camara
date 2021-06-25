@@ -1,0 +1,40 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $default-font;
+  color: $gray;
+  background-color: $white;
+  font-size: res(16);
+  font-weight: $fw-regular;
+}
+
+.container {
+  width: 90vw;
+  max-width: $notebook-max;
+  margin: 0 auto;
+
+  &--padded {
+    padding: res(80) 0;
+  }
+}
+
+.page-title {
+  font-size: res(24);
+  font-weight: $fw-bold;
+  margin-bottom: res(40);
+  color: $aquamarine;
+}
+
+.pagination {
+  text-align: center;
+  margin: res(20) 0;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+}

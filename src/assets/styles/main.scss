@@ -1,0 +1,15 @@
+// Specs
+@import "specs/reset";
+@import "specs/fonts";
+@import "specs/variables";
+@import "specs/helpers";
+@import "specs/global";
+
+// Pages
+@import "pages/home";
+@import "pages/deputados";
+
+// Components
+@import "components/shared/header";
+@import "components/shared/footer";
+@import "components/deputies/deputy-card";

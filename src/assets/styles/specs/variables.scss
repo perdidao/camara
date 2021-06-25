@@ -1,0 +1,29 @@
+// Colors
+$black: #08040e;
+$gray: #4c4a56;
+$silver: #9e94af;
+$white: #f6f4f2;
+
+$petroil: #18075c;
+$marine: #1d037b;
+$purple: #433fa4;
+$aquamarine: #5c7a77;
+
+$primary: var($purple);
+$secondary: var($aquamarine);
+
+// Helpers
+$transition: all 200ms ease-in-out;
+$shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+
+// Fonts
+$default-font: "Inter", Arial, Helvetica, sans-serif;
+
+$fwlight: 300;
+$fw-regular: 400;
+$fw-bold: 700;
+
+// Responsive directives
+$notebook-max: 1440px;
+$tablet-max: 1024px;
+$mobile-max: 720px;

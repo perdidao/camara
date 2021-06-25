@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react"
 
+// API
+import { DeputyApi } from "api/api"
+
 // Models
 import { Deputy } from "models/deputy.interface"
 
-// Styles
-import "./Deputados.scss"
-import { DeputyApi } from "api/api"
+// Components
 import { DeputyCard } from "views/components/deputies/DeputyCard/DeputyCard"
 
 const Deputados = (): JSX.Element => {
@@ -96,8 +97,8 @@ const Deputados = (): JSX.Element => {
 
   return (
     <section className="deputies">
-      <div className="container deputies__cointainer">
-        <h1>Deputados</h1>
+      <div className="container container--padded deputies__cointainer">
+        <h1 className="page-title">Deputados</h1>
         <section className="deputies__list">{deputiesList()}</section>
         {paginationLinks()}
       </div>

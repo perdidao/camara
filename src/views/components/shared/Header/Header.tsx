@@ -1,9 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-// Styles
-import "./Header.scss"
-
 // Types
 import { HeaderProps } from "./types"
 
