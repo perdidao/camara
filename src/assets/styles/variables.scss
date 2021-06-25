@@ -1,0 +1,46 @@
+:root {
+  // Colors
+  --pds-black: #08040e;
+  --pds-gray: #4c4a56;
+  --pds-silver: #9e94af;
+  --pds-white: #f6f4f2;
+
+  --pds-petroil: #18075c;
+  --pds-marine: #1d037b;
+  --pds-purple: #433fa4;
+  --pds-aquamarine: #5c7a77;
+
+  --pds-primary: var(--pds-purple);
+  --pds-secondary: var(--pds-aquamarine);
+
+  // Helpers
+  --pds-transition: all 200ms ease-in-out;
+  --pds-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+
+  // Fonts
+  --pds-default-font: "Inter", Arial, Helvetica, sans-serif;
+
+  --pds-fwlight: 300;
+  --pds-fw-regular: 400;
+  --pds-fw-bold: 700;
+
+  --pds-fs-xxl: 1.75rem;
+  --pds-fs-xl: 1.5rem;
+  --pds-fs-lg: 1.25rem;
+  --pds-fs-md: 1rem;
+  --pds-fs-sm: 0.875rem;
+  --pds-fs-xs: 0.74rem;
+  --pds-fs-xxs: 0.625rem;
+
+  // Spacing
+  --pds-spacing-xl: 5rem;
+  --pds-spacing-lg: 2.5rem;
+  --pds-spacing-md: 1.25rem;
+  --pds-spacing-sm: 0.625rem;
+  --pds-spacing-xl: 0.313rem;
+
+  // Responsive directives
+  --pds-notebook-max: 1440px;
+  --pds-tablet-max: 1024px;
+  --pds-mobile-max: 720px;
+}

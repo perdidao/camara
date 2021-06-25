@@ -1,25 +1,25 @@
-@import "assets/styles/general/variables";
-@import "assets/styles/general/helpers";
-
 .header {
+  background-color: var(--pds-petroil);
+
   &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: res(20) 0;
+    padding: var(--pds-spacing-md) 0;
   }
 
   &__logo {
-    font-size: res(22);
-    font-weight: $bold;
-    color: $gray;
+    font-size: var(--pds-fs-xl);
+    font-weight: var(--pds-fw-bold);
+    color: var(--pds-white);
   }
 
   &__link {
     display: inline-block;
-    padding: res(5) res(10);
-    margin: 0 res(10);
-    font-size: res(14);
+    padding: var(--pds-spacing-xs) var(--pds-spacing-sm);
+    margin: 0 var(--pds-spacing-sm);
+    font-size: var(--pds-fs-sm);
+    font-weight: var(--pds-fw-bold);
     text-transform: uppercase;
   }
 }

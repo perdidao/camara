@@ -1,22 +1,29 @@
 // Dependencies
-@import "general/reset";
-@import "general/helpers";
-@import "general/variables";
+@import "reset";
+@import "fonts";
+@import "variables";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
 
 body {
-  font-family: $default-font;
-  color: $black;
-  background-color: $white;
-  font-size: res(14);
+  font-family: var(--pds-default-font);
+  color: var(--pds-gray);
+  background-color: var(--pds-white);
+  font-size: 14px;
+  font-weight: var(--pds-fw-regular);
 }
 
 .container {
   width: 90vw;
-  max-width: $notebook-max;
+  max-width: var(--pds-notebook-max);
   margin: 0 auto;
 }
 
 a {
   text-decoration: none;
-  color: $primary;
+  color: var(--pds-primary);
 }

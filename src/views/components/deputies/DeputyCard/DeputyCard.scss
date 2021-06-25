@@ -1,19 +1,16 @@
-@import "assets/styles/general/helpers";
-@import "assets/styles/general/variables";
-
 .deputy_card {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: res(20);
+  margin-bottom: 20px;
 
   &__avatar {
-    width: res(80);
-    height: res(80);
-    margin-right: res(10);
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
     border-radius: 50%;
     overflow: hidden;
-    border: res(5) solid $silver;
+    border: 5px solid var(--pds-silver);
 
     img {
       display: block;
@@ -22,13 +19,13 @@
   }
 
   &__name {
-    margin-bottom: res(10);
-    font-size: res(16);
-    font-weight: $bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: var(--pds-fw-bold);
   }
 
   &__from {
-    color: $primary;
-    font-size: res(12);
+    color: var(--pds-primary);
+    font-size: 12px;
   }
 }
