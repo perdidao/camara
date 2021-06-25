@@ -14,14 +14,14 @@ const Header = (Props: HeaderProps): JSX.Element => {
   const { title } = Props
 
   return (
-    <header className="Header">
-      <div className="container Header__container">
-        <p className="Header__logo">{title}</p>
+    <header className="header">
+      <div className="container header__container">
+        <p className="header__logo">{title}</p>
 
-        <nav className="Header__nav">
+        <nav className="header__nav">
           {routes.map((route) => {
             return (
-              <Link to={route.url} className="Header__link" key={route.key}>
+              <Link to={route.url} className="header__link" key={route.key}>
                 {route.title}
               </Link>
             )
